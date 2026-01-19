@@ -3,10 +3,13 @@ using Logging
 
 function setup_argparse()
     cli = ArgParseSettings(
+        add_help = true,
+        add_version = true,
         description = "Compact and Efficient Genome Sketching using Hyperdimensional Vectors (in Julia)",
-        help_width = 80,
         epilog = "Copyright (C) 2025 Carlos Vigil-Vásquez (carlos.vigil.v@gmail.com). Permission to copy and modify is granted under the MIT license",
-        version = VERSION
+        help_width = 80,
+        prog="hypergenjl",
+        version = VERSION,
     )
 
     @add_arg_table cli begin
