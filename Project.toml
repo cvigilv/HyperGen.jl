@@ -1,0 +1,32 @@
+name = "HyperGen"
+uuid = "ddf70ea7-679d-4cca-9302-fa7f39e9337a"
+version = "0.1.0"
+authors = ["Carlos Vigil-Vásquez <carlos.vigil.v@gmail.com>"]
+
+[deps]
+AbstractTrees = "1520ce14-60c1-5f80-bbc7-55ef81b5835c"
+ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
+Clustering = "aaaa29a8-35af-508c-8bc3-b662a17a0fe5"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+FASTX = "c2308a5c-f048-11e8-3e8a-31650f418d12"
+HyperdimensionalComputing = "ebb7690e-f605-4e7a-86a0-727dbed6b293"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+NeighborJoining = "3f465f53-8c2e-426b-b4f1-431dfde0fdf8"
+NewickTree = "b0a14db8-6308-4ebc-8917-f72cd81f5094"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
+[sources]
+HyperdimensionalComputing = {rev = "main", url = "https://github.com/MichielStock/HyperdimensionalComputing.jl"}
+
+[compat]
+AbstractTrees = "0.4.5"
+Clustering = "0.15.8"
+Dates = "1.11.0"
+LinearAlgebra = "1.12.0"
+Logging = "1.11.0"
+NeighborJoining = "0.2.1"
+NewickTree = "0.4.0"
+Printf = "1.11.0"
