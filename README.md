@@ -84,6 +84,22 @@ of simply,
 make
 ```
 
+
+## Acknowledgements
+
+This work was supported by [Universite de Lille](https://www.univ-lille.fr/) and the
+[EGBSL](https://egbsl.univ-lille.fr/), in conjunction with the
+[IPL](https://www.ipl.univ-lille.fr/), [University of Ghent](https://www.ugent.be/en) and
+the [KERMIT](https://kermit.ugent.be/) research group.
+
+## Citation
+
+If you use HyperGen.jl in your research, please cite the following paper:
+
+- Weihong Xu, Po-Kai Hsu, Niema Moshiri, Shimeng Yu, Tajana Rosing, HyperGen: compact and
+  efficient genome sketching using hyperdimensional vectors, Bioinformatics, Volume 40, Issue 7,
+  July 2024, btae452, https://doi.org/10.1093/bioinformatics/btae452
+
 ## License
 
-MIT Licence - Refer to [[LICENSE]] for more information
+MIT License - Refer to [[LICENSE]] for more information
