@@ -25,6 +25,7 @@ HyperdimensionalComputing = {rev = "main", url = "https://github.com/MichielStoc
 AbstractTrees = "0.4.5"
 Clustering = "0.15.8"
 Dates = "1.11.0"
+HyperdimensionalComputing = "0.1.0"
 LinearAlgebra = "1.12.0"
 Logging = "1.11.0"
 NeighborJoining = "0.2.1"
